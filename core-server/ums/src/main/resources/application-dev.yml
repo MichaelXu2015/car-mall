@@ -1,0 +1,28 @@
+server:
+  port: 9504
+spring:
+  application:
+    name: ums
+#  cloud:
+#    nacos:
+#      config:
+#        server-addr: 127.0.0.1:8848
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+  datasource:
+    druid:
+      #mysql-connect version >=8.0用com.mysql.cj.jdbc.Driver
+      #否则用 com.mysql.jdbc.Driver
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/mall_ums?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+      username: root
+      password: 1234
+mybatis-plus:
+  configuration:
+    #打印log
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    #开启驼峰命名
+    map-underscore-to-camel-case: true
+    cache-enabled: true
+    lazy-loading-enabled: true
+  mapper-locations: classpath:mapper/*.xml
