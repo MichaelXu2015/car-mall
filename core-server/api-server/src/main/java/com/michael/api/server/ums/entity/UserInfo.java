@@ -1,4 +1,4 @@
-package com.michael.api.server.entity;
+package com.michael.api.server.ums.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;

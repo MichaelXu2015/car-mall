@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <description>商品管理系统</description>
+    <description>商品服务</description>
     <packaging>jar</packaging>
 
     <artifactId>pms</artifactId>

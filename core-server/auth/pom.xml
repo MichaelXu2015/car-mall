@@ -8,10 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <description>支付服务</description>
     <packaging>jar</packaging>
-
-    <artifactId>payms</artifactId>
+    <description>认证授权服务</description>
+    <artifactId>auth</artifactId>
 
 
 </project>

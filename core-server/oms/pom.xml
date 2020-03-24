@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <description>订单管理系统</description>
+    <description>订单服务</description>
     <packaging>jar</packaging>
 
     <artifactId>oms</artifactId>

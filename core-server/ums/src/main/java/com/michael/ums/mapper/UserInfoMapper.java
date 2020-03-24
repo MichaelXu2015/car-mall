@@ -1,7 +1,7 @@
 package com.michael.ums.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.michael.api.server.entity.UserInfo;
+import com.michael.api.server.ums.entity.UserInfo;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

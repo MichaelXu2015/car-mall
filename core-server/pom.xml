@@ -18,6 +18,8 @@
         <module>payms</module>
         <module>ams</module>
         <module>api-server</module>
+        <module>gateway</module>
+        <module>auth</module>
     </modules>
 
     <dependencies>

@@ -1,5 +1,19 @@
+基于SpringBoot2.1.6的小型电商项目,使用SpringCloud Alibaba分布式微服务
+包含的技术点
+1.统一认证授权: SpringSecurity+JWT+OAuth2.0
+2.商品搜索: ElasticSearch
+3.分布式事务: seata
+4.分布式锁: redis
+5.分布式任务:
+6.接口幂等性:
+7.MySQL主从复制/读写分离/分库分表: MyCat
+8.接口压力测试：JMeter
+
+...
 ams:9500
-oms:9501
-payms:9502
-pms:9503
-ums:9504
+auth:9502
+gateway:9503
+oms:9504
+payms:9505
+pms:9506
+ums:9507

@@ -1,7 +1,7 @@
 package com.michael.ums;
 
 import com.alibaba.nacos.common.util.Md5Utils;
-import com.michael.api.server.entity.UserInfo;
+import com.michael.api.server.ums.entity.UserInfo;
 import com.michael.ums.mapper.UserInfoMapper;
 import com.michael.ums.service.IUserInfoService;
 import lombok.extern.slf4j.Slf4j;

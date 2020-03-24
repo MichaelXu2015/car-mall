@@ -8,10 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <description>支付服务</description>
     <packaging>jar</packaging>
-
-    <artifactId>payms</artifactId>
+    <artifactId>gateway</artifactId>
+    <description>网关服务,微服务的入口</description>
 
 
 </project>
