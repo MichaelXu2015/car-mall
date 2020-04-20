@@ -27,6 +27,25 @@ public class UserInfoTest {
 
 
     @Test
+    public void testR(){
+        /*UserInfo userInfo = new UserInfo();
+        userInfo.setId(1);
+        userInfo.setNikeName("michael");
+
+        System.out.println(new Gson().toJson(R.data(userInfo)));
+        System.out.println(new Gson().toJson(R.data(300,userInfo)));
+        System.out.println(new Gson().toJson(R.data(300,userInfo,"这个用户太好了")));
+        System.out.println(new Gson().toJson(R.data(userInfo,"哈哈")));
+        System.out.println(new Gson().toJson(R.success("修改成功")));
+        System.out.println(new Gson().toJson(R.success(RespEnum.SUCCESS,"更新成功")));
+        System.out.println(new Gson().toJson(R.fail("修改失败")));
+        System.out.println(new Gson().toJson(R.success(RespEnum.FAIL,"更新失败")));
+        System.out.println(new Gson().toJson(R.status(true)));
+        System.out.println(new Gson().toJson(R.status(false)));*/
+    }
+
+
+    @Test
     public void testInsert(){
         UserInfo userInfo = new UserInfo();
         userInfo.setUserId(UUID.randomUUID().toString().toLowerCase());
